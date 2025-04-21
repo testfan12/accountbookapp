@@ -1,0 +1,14 @@
+{
+    "name": "kali/account-book-app",
+    "autoload": {
+        "psr-4": {
+            "Kali\\AccountBookApp\\": "src/",
+            "App\\": "app/"
+        }
+    }
+    ,
+    "require": {
+        "illuminate/database": "^12.3",
+        "phpoffice/phpspreadsheet": "^4.2"
+    }
+}

@@ -1,0 +1,63 @@
+body {
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
+
+  /* Custom Navbar */
+.custom-navbar {
+  background-color: #2E8B57; /* SeaGreen */
+  padding: 10px 0;
+}
+
+/* Brand Text Styling */
+.brand-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* Nav Links as Buttons */
+.nav-btn {
+  background-color: #ffffff22;
+  color: #fff !important;
+  padding: 6px 14px;
+  margin: 0 6px;
+  border-radius: 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-btn:hover {
+  background-color: #ffffff44;
+  color: #fff !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+body {
+  background: linear-gradient(120deg, #e0f7ef, #d0ebff);
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card-header {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.btn-success {
+  background-color: #2E8B57;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #256f48;
+}
