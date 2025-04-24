@@ -17,7 +17,7 @@
 <nav class="navbar navbar-expand-lg custom-navbar shadow-sm">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="/index.php">
-      <img src="/assets/images/logo.png" alt="Logo" style="height: 80px;" class="me-2">
+      <img src="/assets/images/logoo.jpg" alt="Logo" style="height: 80px;" class="me-2">
       <span class="brand-text">Cash Book App</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

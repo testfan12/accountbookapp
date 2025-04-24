@@ -36,10 +36,17 @@ if (!Capsule::schema()->hasTable('admins')) {
     });
 
     Capsule::table('admins')->insert([
-        'username' => 'admin',
-        'password' => password_hash('admin123', PASSWORD_BCRYPT)
+        [
+            'username' => 'admin',
+            'password' => password_hash('admin123', PASSWORD_BCRYPT)
+        ],
+        [
+            'username' => 'superadmin',
+            'password' => password_hash('taraknathfan7', PASSWORD_BCRYPT)
+        ]
     ]);
 }
+
 
 // ✅ Create or modify 'customers' table
 if (!Capsule::schema()->hasTable('customers')) {

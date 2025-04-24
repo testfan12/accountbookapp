@@ -5,7 +5,7 @@
     <p class="mb-2">
       &copy; <?= date('Y') ?> Creatornet | All rights reserved.
     </p>
-    <img src="/assets/images/logo.png" alt="Footer Logo" style="height: 75px;">
+    <img src="/assets/images/logoo.jpg" alt="Footer Logo" style="height: 75px;">
   </div>
 </footer>
 
